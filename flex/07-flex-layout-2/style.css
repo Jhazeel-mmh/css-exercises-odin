@@ -5,9 +5,15 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
