@@ -23,6 +23,25 @@ body {
   flex: 1;
 }
 
+.sidebar {
+  width: 300px;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
   height: 72px;
