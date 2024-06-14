@@ -30,6 +30,15 @@ body {
   padding: 16px;
 }
 
+.card-container {
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -62,4 +71,7 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  box-sizing: border-box;
+  padding: 16px;
+  flex: 1 1 20vw;
 }
