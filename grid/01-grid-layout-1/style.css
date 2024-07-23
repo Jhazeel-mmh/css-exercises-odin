@@ -1,12 +1,17 @@
 body,
 html {
   height: 100%;
+  width: 100vw;
   margin: 0;
 }
 
 .container {
+  display: grid;
+  grid-template: repeat(10, 90px) / repeat(10, 100px);
+  gap: 10px;
   text-align: center;
   height: 100%;
+  width: 100%;
   padding: 16px;
   box-sizing: border-box;
 }
@@ -22,22 +27,33 @@ html {
 
 .header {
   background-color: #006157;
+  grid-column: 1 / 11;
+  grid-row: 1 / 2;
 }
 
 .sidebar {
   background-color: #005B94;
+  grid-column: 1 / 3;
+  grid-row: 2 / 10;
+
 }
 
 .nav {
   background-color: #642cde;
+  grid-column: 3 / 11;
+  grid-row: 2 / 3;
 }
 
 .article {
   background-color: #7E1DC3;
+  grid-column: 3 / 11;
+  grid-row: 3 / 10;
 }
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / 11;
+  grid-row: 10;
 }
 
 .article p {
